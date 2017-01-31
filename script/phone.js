@@ -17,7 +17,7 @@ function validateAndFormatPhoneNumber(inputId, outputId) {
   }
   var strippedNumber = stripNumber(number)
   if (strippedNumber.length < 5 || number.length > 15) {
-      alert("Please enter between 5 and 10 characters")
+      alert("Please enter between 5 and 10 digits")
       return
   }
   formatedNumber = formatStrippedNumber(strippedNumber)
